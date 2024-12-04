@@ -1,0 +1,3 @@
+# JavaScript Loose Typing Bug
+
+This repository demonstrates a common error in JavaScript related to its loose typing system.  Specifically, it shows how the + operator behaves differently when used with numbers and strings.  The `bug.js` file contains code that unintentionally performs string concatenation instead of numeric addition. The `bugSolution.js` file provides a corrected version that uses type checking or explicit type conversion to prevent this issue.
